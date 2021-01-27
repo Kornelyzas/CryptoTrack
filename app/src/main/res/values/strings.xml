@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"></string>
+    <string name="app_name">CryptoTrack</string>
     <string name="logo_name1">Crypto</string>
     <string name="logo_name2">Track</string>
     <string name="ft_1">No account yet?</string>
