@@ -8,7 +8,8 @@
     <string name="Register">Register</string>
     <string name="login_ph">Username</string>
     <string name="pass_ph">Password</string>
-    <color name="black">#0E0E0E</color>
-    <color name="white">#FFFFFF</color>
-    <color name="yellow">#FFE502</color>
+    <string name="email">E-mail</string>
+    <string name="log_invalid_cred_message">Wrong username or password</string>
+    <string name="search_loading_data">Please wait, data is loading</string>
+    <string name="search_error_data">Could not read data from API</string>
 </resources>

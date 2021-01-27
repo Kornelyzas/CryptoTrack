@@ -42,7 +42,7 @@
         app:layout_constraintVertical_bias="0.161" />
 
     <EditText
-        android:id="@+id/editTextUser"
+        android:id="@+id/log_user"
         android:layout_width="366dp"
         android:layout_height="45dp"
         android:layout_marginStart="16dp"
@@ -60,7 +60,7 @@
         app:layout_constraintVertical_bias="0.431" />
 
     <EditText
-        android:id="@+id/editTextPass"
+        android:id="@+id/log_pass"
         android:layout_width="366dp"
         android:layout_height="45dp"
         android:layout_marginStart="20dp"
@@ -92,6 +92,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.626" />
 
+    <CheckBox
+        android:id="@+id/rememberMeCheckBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:text="Remember Me"
+        android:buttonTint="#FFFFFF"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738" />
+
     <TextView
         android:id="@+id/text_view_id"
         android:layout_width="wrap_content"
@@ -105,22 +121,22 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.741" />
+        app:layout_constraintVertical_bias="0.843" />
 
     <TextView
-        android:id="@+id/text_view_id_2"
+        android:id="@+id/reg_link"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="232dp"
+        android:layout_marginStart="236dp"
         android:text="@string/ft_2"
-        android:textColor="@color/white"
+        android:textColor="@color/yellow"
         android:textSize="22dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.741" />
+        app:layout_constraintVertical_bias="0.844" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
